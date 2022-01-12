@@ -86,6 +86,7 @@ p{
 .container {
   max-width: 540px;
   margin: 0 auto;
+  padding: 1em;
 }
 
 /* Layout header */
