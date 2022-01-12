@@ -1,0 +1,207 @@
+/* universal style */
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  /* border: black 1px solid; */
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+}
+
+
+/* Typography */
+
+/* Typography header */
+
+header {
+  background-color: #d7fbe8;
+  color: #1fab89 ;
+}
+
+.brand-logo {
+  background-color: #9df3c4;
+}
+
+
+.brand-name h1{
+  font-size: 3.2rem;
+  margin:0;
+}
+
+.brand-name a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand-tag{
+  font-size: .75rem;
+  font-weight: 700;
+}
+
+.nav-tabs {
+  list-style: none;
+  padding-left: 0;
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+.nav-tabs li a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.current-page {
+  border-bottom: solid 2px #1fab89;
+}
+
+/* Typography main */
+
+main {
+  color: grey;
+}
+
+main a {
+  text-decoration: none;
+}
+
+main a span{
+  color: grey;
+  font-size: 0.75rem;
+  font-weight: 700;
+
+}
+
+p{
+  text-align: justify;
+}
+
+
+/* Layout at 540px*/
+
+.container {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+/* Layout header */
+
+
+/* img {
+  max-width: 100%;
+  object-fit: cover;
+} */
+
+.brand-logo {
+  margin-left: 17px;
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.brand-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.brand-name {
+  text-align: center;
+  width: 300px;
+  align-self: center;
+}
+
+.brand-tag{
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.nav-tabs {
+  border-top: #d7fbe8 1px solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+
+}
+
+.nav-tabs a{
+  padding: .75em;
+}
+
+.nav-tabs li a span{
+  display: inline-block;
+  padding-bottom: .5em;
+}
+
+
+/* Layout main */
+
+.breadcrumb{
+  display: inline-block;
+}
+
+pre {
+  display: inline-block;
+}
+
+.cards p {
+  text-align: center;
+  font-weight: 700;
+}
+
+.card-aviation {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card-aviation div{
+  display: flex;
+  padding: 1em;
+  background-color: #d7fbe8;
+  margin: .5em 0;
+  gap: 1em;
+
+}
+
+.card-aviation div p{
+  text-align: left;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.card-aviation img{
+  display: block;
+  width: 30%;
+}
+
+
+.card-cybersec {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card-cybersec div{
+  display: flex;
+  padding: 1em;
+  background-color: #d7fbe8;
+  margin: .5em 0;
+  gap: 1em;
+
+}
+
+.card-cybersec div p{
+  text-align: left;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.card-cybersec img{
+  display: block;
+  width: 30%;
+}cybersec
